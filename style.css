@@ -1,0 +1,72 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing:border-box;
+    font-family: "urbanist",sans-serif;
+}
+:root{
+    --black-color:#1a1d20;
+    --black-color-primary:#1c1c1c;
+    --grey-color:#c6c6c6;
+    --secondary:#29a9fd;
+    --pink:#C850C0;
+}
+h1,h2,h3,h4,h5{
+    color:var(--black-color);
+}
+h1{
+    font-size:3rem;
+}
+h2{
+    line-height:3rem;
+    font-weight:600;
+    font-size:3.4rem;
+}
+p{
+    margin:0;
+    font-size:1rem;
+    color: var(--black-color);
+    letter-spacing:2px;
+    line-height:1.5;
+}
+a{
+    text-decoration:none;
+}
+li{
+    list-style:none;
+}
+.bg-color{
+    background-color:var(--black-color-primary);
+}
+.bg-main{
+    height:90vh;
+    position: relative;
+    overflow: hidden;
+}
+.img1{
+    border-radius:4px;
+    width:80%;
+
+}
+.hero-section .container{
+    display:grid;
+    place-items:center;
+    height:inherit;
+}
+.nav-link{
+  color:white;
+  font-weight:bold;
+}
+.nav-link:hover{
+    color:var(--secondary);
+}
+.text-grey{
+    color:var(--grey-color);
+}
+button a {
+    font-size:1rem;
+    letter-spacing:0.03rem;
+}
