@@ -14,6 +14,10 @@
     --secondary:#29a9fd;
     --pink:#C850C0;
 }
+/* .navbar{
+    position:sticky;
+    top:0%;
+} */
 h1,h2,h3,h4,h5{
     color:var(--black-color);
 }
@@ -21,7 +25,7 @@ h1{
     font-size:3rem;
 }
 h2{
-    line-height:3rem;
+    line-height:4.2rem;
     font-weight:600;
     font-size:3.4rem;
 }
@@ -69,4 +73,36 @@ li{
 button a {
     font-size:1rem;
     letter-spacing:0.03rem;
+}
+.common-heading{
+    font-size:2rem;
+    font-weight:500;
+    letter-spacing:2px;
+}
+.common-title{
+   margin-bottom:2.8rem;
+} 
+.services-section{
+    padding:4.2rem  0 3rem 0 !important;
+}
+.icon-span{
+   width:1.6rem;
+   height:1.6rem;
+   background-color:#1089ff;
+   color:white;
+}
+.card-box:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.more-infor-section{
+    height:80vh;
+    background-image:linear-gradient(rgba(22,22,22,0.1),rgba(22,22,22,0.9)),url(./img/night-img.webp);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+    padding:4rem o;
+    overflow: hidden;
+}
+.bg-white{
+    background-color: white;
 }
