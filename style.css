@@ -5,8 +5,8 @@
     margin: 0%;
     padding: 0%;
     box-sizing:border-box;
-    font-family: "urbanist",sans-serif;
-
+    font-family: "urbanist",sans-serif; 
+    scroll-behavior:smooth;
 }
 :root{
     --black-color:#1a1d20;
@@ -165,4 +165,7 @@ button a {
 
 .custom-shape-divider-top-1723765336 .shape-fill {
     fill: #FFFFFF;
+}
+.contact-section .form-section{
+    width:50%;
 }
